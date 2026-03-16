@@ -13,6 +13,7 @@ public class MiniBanco {
         System.out.printf("Olá, %s! Saldo inicial: R$ %.2f\n, nome, saldo");
 
         scanner.close();
+        
     }
 }
 
