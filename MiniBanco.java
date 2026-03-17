@@ -30,7 +30,7 @@ public class MiniBanco {
             exibirMenu();
             opcao = scanner.nextInt();
             if(opcao == 1){
-                System.out.println(" [Depositar - em breve]");
+                //System.out.println(" [Depositar - em breve]");
             }
             else if(opcao == 2){
                 System.out.println(" [Sacar - em breve]");
