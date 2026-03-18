@@ -87,6 +87,7 @@ public class MiniBanco {
                 else if(!saldoSuficiente(saldo, valorSaque)){
                     System.out.printf("Saldo insuficiente. Necessario: R$ %.2f%n", clacularTotalSaque(valorSaque));
                 }
+                
                 else{
                     double taxa = valorSaque * TAXA_DE_SAQUE;
                     saldo = sacar(saldo, valorSaque);
